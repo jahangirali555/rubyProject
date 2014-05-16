@@ -1,9 +1,14 @@
 Rails.application.routes.draw do
-  get 'index/events'
+#   get 'index/events'
 
-  get 'index/shop'
+#   get 'index/shop'
 
-  get 'index/discussion'
+#   get 'index/discussion'
+  
+  match "/index" => "index#index", via: :get
+  match "/events" => "index#events", via: :get
+  match "/shop" => "index#shop", via: :get
+  match "/discussion" => "index#discussion", via: :get
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
