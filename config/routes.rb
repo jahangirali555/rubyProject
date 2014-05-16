@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :events
+
 #   get 'index/events'
 
 #   get 'index/shop'
