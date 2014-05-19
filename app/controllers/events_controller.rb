@@ -1,6 +1,11 @@
 class EventsController < ApplicationController
+<<<<<<< HEAD
   before_action :set_event, only: [:show, :edit, :update, :destroy]
 #   before_action :authenticate_member!, :only => [:new, :edit, :create, :update, :destroy]
+=======
+#   before_action :set_event, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_member!, :only => [:new, :edit, :create, :update, :destroy]
+>>>>>>> 59a389d... Ruby Validation | Lecture 17
 
   # GET /events
   # GET /events.json
