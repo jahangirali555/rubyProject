@@ -13,6 +13,10 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
+<<<<<<< HEAD
+=======
+# gem 'devise'
+>>>>>>> be3f4f5a086f4917a4d4a06ce40cb4d75d38ac99
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -37,3 +41,7 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+<<<<<<< HEAD
+=======
+
+>>>>>>> be3f4f5a086f4917a4d4a06ce40cb4d75d38ac99

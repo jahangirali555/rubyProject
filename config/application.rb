@@ -8,6 +8,11 @@ Bundler.require(*Rails.groups)
 
 module FirstProject
   class Application < Rails::Application
+<<<<<<< HEAD
+=======
+    
+    config.assests.initialize_on_precompile = false
+>>>>>>> be3f4f5a086f4917a4d4a06ce40cb4d75d38ac99
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
